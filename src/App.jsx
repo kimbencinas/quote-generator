@@ -20,7 +20,7 @@ export default function App() {
   useEffect(() => {
     getQuote();
   }, []);
-  
+
   return (
     <div className="app">
       <div className="container">
